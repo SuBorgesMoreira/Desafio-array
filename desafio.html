@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script>
+		
+		var valor = [];
+		
+		for (var x=0;x<10;x++){
+			valor[x] = prompt("Digite um número " + x);
+		}
+		
+		/*for(var v=0;v<valor.length;v++){
+			document.write(valor[v] + " ");
+			
+		}*/
+		
+		valor.sort(function(a,b){return b-a});
+		document.write(valor[0]);
+		
+		</script> 
+	</head>
+	<body>
+	
+	</body>
+</html>
